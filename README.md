@@ -15,9 +15,9 @@ Se requiere tener instalado Docker y make, detallo los pasos a continuación:
 `make docker-pytest`: Ejecuta los tests.
 
 ## SetUp de Trello
-Para utilizar el webservice hay que obtener la APIKey y el Token de trello y guardarlos en `nanlab/settings/.env`. (Utilizar la plantilla [env.example](nanlab/settings/env.example)
+Para utilizar el webservice hay que obtener la APIKey y el Token de trello y guardarlos en `nanlab/settings/.env`. (Utilizar la plantilla [env.example](nanlab/settings/env.example))
 
-Por último hay que crear un board llamado "NaNLab", una list llamada "To Do" y las labels "Bug", "Research", "Maintenance" y "Test".
+Por último hay que crear un board llamado `NaNLab`, una list llamada `To Do` y las labels `Bug`, `Research`, `Maintenance` y `Test`.
 
 ## Uso de la API
 El endpoint es `/api/v1/trello_cards`, allí se debe postear para crear las cards deseadas.
